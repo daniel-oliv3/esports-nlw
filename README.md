@@ -8,10 +8,13 @@
 **React.js**
 - Site: https://pt-br.reactjs.org/
 
-##
+## ...
 
 **Expo**
 - Site: https://expo.dev/client
+
+**Visual Studio Code**
+- Site: https://code.visualstudio.com/download
 
 ## Figma.
 
@@ -24,12 +27,15 @@
 ```
 npm init -y
 ```
+
+## Dependência do projeto.
 - Express, `node_modules`, `package-lock.json`.
 ```
 npm install express
 ```
 
-**Rodando o projeto no console**
+
+**Rodando o projeto no terminal**
 ```
 node src/server.js
 ```
