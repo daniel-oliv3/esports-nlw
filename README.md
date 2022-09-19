@@ -8,7 +8,7 @@
 **React.js**
 - Site: https://pt-br.reactjs.org/
 
-## ...
+## Ferramentas do programador.
 
 **Expo**
 - Site: https://expo.dev/client
@@ -16,8 +16,19 @@
 **Visual Studio Code**
 - Site: https://code.visualstudio.com/download
 
-## Figma.
+**Insomnia**
+- Site: https://insomnia.rest/download
 
+**Postman**
+- Site: https://www.postman.com
+
+**Hoppscotch**
+- Site: https://hoppscotch.io/pt-br/
+- Github: https://github.com/hoppscotch/hoppscotch
+
+##
+
+## Figma.
 **Figma do projeto.**
 - Site:  https://www.figma.com/community/file/1150897317533332617
 
@@ -48,7 +59,7 @@ node src/server.mjs
 - Localhost: http://localhost:3333/ads
 
 **Keyboard Shortcuts**
-- Vscode CTRL + P, >
+- Vscode: **CTRL + P**, **>**
     - Add Selection To Next Find Match (`adicionar seleção à próxima correspondência de localização`).
     - Copy Line Down (`Duplica linhas`).
 
