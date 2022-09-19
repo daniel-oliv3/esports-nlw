@@ -77,6 +77,24 @@ npm i typescript -D
 ```
 
 - Alterando a extenção do arquivo `server.mjs` para `server.ts`
+- Adicionando trecho de codigo no arquivo `package.json`.
+
+```ts
+"scripts": {
+    "build": "tsc"
+  },
+```
+
+**Tsc**.
+- Cria o arquivo de configuração do TypeScript `tsconfig.json`.
+```
+npx tsc --init 
+```
+
+**Rodar o projeto**
+```
+npm run build
+```
 
 
 
