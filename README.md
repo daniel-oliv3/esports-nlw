@@ -2,11 +2,16 @@
 
 ## Pré-Requisitos.
 
+React.js, Node.js, React-Native, JavaScript, TypeScript.
+
 **Node.js**
 - Site: https://nodejs.org/en/
 
 **React.js**
 - Site: https://pt-br.reactjs.org/
+
+**Typescript**
+- Site: https://www.typescriptlang.org/
 
 ## Ferramentas do programador.
 
@@ -28,12 +33,13 @@
 
 ##
 
-## Figma.
+### Figma.
 **Figma do projeto.**
 - Site:  https://www.figma.com/community/file/1150897317533332617
 
-## Criação do projeto com Node.js
-**server**
+### Criação do projeto com Node.js
+## Server (Back-End).
+- Criação da pasta server.
 - Criação do arquivo `package.json`.
 ```
 npm init -y
@@ -63,9 +69,14 @@ node src/server.mjs
     - Add Selection To Next Find Match (`adicionar seleção à próxima correspondência de localização`).
     - Copy Line Down (`Duplica linhas`).
 
+##
 
+**Instalando o TypeScript**
+```
+npm i typescript -D
+```
 
-
+- Alterando a extenção do arquivo `server.mjs` para `server.ts`
 
 
 
