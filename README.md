@@ -29,6 +29,10 @@ npm init -y
 npm install express
 ```
 
+**Rodando o projeto no console**
+```
+node src/server.js
+```
 
 
 
