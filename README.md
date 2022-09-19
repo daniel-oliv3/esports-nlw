@@ -93,11 +93,15 @@ npx tsc --init
 
 - Cria o arquivo `server.js`, baseado no arquivo `server.ts`.
 - Alterando trecho de codigo no arquivo `tsconfig.json`.
+- Cria pasta `build`.
 ```ts
 /* Modules */
     "module": "ES2020",
+    "rootDir": "./src",
+/* Emit */
+    "outDir": "./build",
 ```
-
+- Comando.
 ```
 npm run build
 ```
