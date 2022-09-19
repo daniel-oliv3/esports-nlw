@@ -98,12 +98,21 @@ npx tsc --init
 /* Modules */
     "module": "ES2020",
     "rootDir": "./src",
+    "moduleResolution": "node", 
 /* Emit */
     "outDir": "./build",
 ```
 - Comando.
 ```
 npm run build
+```
+
+- https://www.npmjs.com/package/express
+- DT, Types-Express
+- https://www.npmjs.com/package/@types/express
+
+```
+npm install @types/express -D
 ```
 
 
