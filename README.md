@@ -29,6 +29,8 @@ npm init -y
 ```
 
 ## Dependência do projeto.
+
+**Express**
 - Express, `node_modules`, `package-lock.json`.
 ```
 npm install express
@@ -39,11 +41,16 @@ npm install express
 ```
 node src/server.js
 ```
+- Depois de passar para `.mjs`.
+```
+node src/server.mjs
+```
+- Localhost: http://localhost:3333/ads
 
-
-
-
-
+**Keyboard Shortcuts**
+- Vscode CTRL + P, >
+    - Add Selection To Next Find Match (`adicionar seleção à próxima correspondência de localização`).
+    - Copy Line Down (`Duplica linhas`).
 
 
 
