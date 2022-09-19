@@ -58,7 +58,7 @@ npm install express
 ```
 node src/server.js
 ```
-- Depois de passar para `.mjs`.
+- Depois de alterando a extenção do arquivo `.mjs`.
 ```
 node src/server.mjs
 ```
@@ -91,7 +91,13 @@ npm i typescript -D
 npx tsc --init 
 ```
 
-**Rodar o projeto**
+- Cria o arquivo `server.js`, baseado no arquivo `server.ts`.
+- Alterando trecho de codigo no arquivo `tsconfig.json`.
+```ts
+/* Modules */
+    "module": "ES2020",
+```
+
 ```
 npm run build
 ```
