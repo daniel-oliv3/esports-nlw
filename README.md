@@ -81,7 +81,8 @@ npm i typescript -D
 
 ```ts
 "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsnd src/server.ts",
   },
 ```
 
@@ -96,13 +97,19 @@ npx tsc --init
 - Cria pasta `build`.
 ```ts
 /* Modules */
-    "module": "ES2020",
+    "module": "CommonJS",
     "rootDir": "./src",
     "moduleResolution": "node", 
 /* Emit */
     "outDir": "./build",
 ```
-- Comando.
+
+- Comandos.
+
+```
+npm i ts-node-dev -D
+```
+
 ```
 npm run build
 ```
@@ -114,6 +121,7 @@ npm run build
 ```
 npm install @types/express -D
 ```
+
 
 
 
