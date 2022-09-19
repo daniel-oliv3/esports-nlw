@@ -1,12 +1,29 @@
-###
+### eSports
+
+## Pré-Requisitos.
+
+**Node.js**
+- Site: https://nodejs.org/en/
+
+**React.js**
+- Site: https://pt-br.reactjs.org/
 
 ##
 
+**Expo**
+- Site: https://expo.dev/client
 
+## Figma.
 
+**Figma do projeto.**
+- Site:  https://www.figma.com/community/file/1150897317533332617
 
-
-
+## Criação do projeto com Node.js
+**server**
+- Criação do arquivo `package.json`.
+```
+npm init -y
+```
 
 
 
