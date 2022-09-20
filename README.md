@@ -222,7 +222,10 @@ expo init mobile
 ```
 - Blank (TypeScript) Same as blank but with TypeScript configuration
 
-
+**Roda o projeto React Native**
+```
+expo start
+```
 
 
 
