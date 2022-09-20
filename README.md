@@ -149,6 +149,8 @@ npm install
 npm run dev
 ```
 
+## Component, Props
+
 **Componentes**
 ```ts
 //Exemplo de Component
@@ -205,6 +207,59 @@ function App() {
 
 export default App
 ```
+
+##
+
+
+### Criação do projeto com React Native
+## Mobile (Mobile).
+
+**Expo**
+- Site: https://expo.dev/
+
+```
+expo init mobile
+```
+- Blank (TypeScript) Same as blank but with TypeScript configuration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
