@@ -1,12 +1,20 @@
-import { useState } from 'react'
+function Button(){
+  return (
+      <button>
+          Enviar
+      </button>
+  )
+}
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <h1>Olá Mundo!</h1>
+      <h1>Olá Mundo, Sapup3 na Área!</h1>
+
+      <Button />
     </>
   )
 }

@@ -137,14 +137,35 @@ npm create vite@latest
 
 **Instalação das depêndencias de desenvolvimento**
 - `node_modules` `package-lock.json`.
+
 ```
 npm install
 ```
 
+*JSX: JavaScript + XML (HTML)*
 
+**Roda o projeto Vite.js**
+```
+npm run dev
+```
 
+**Componentes**
+```ts
+function Button(){
+    return (
+        <button>
+            Enviar
+        </button>
+    )
+}
 
-
+function App(){
+    return (
+        <Button />
+    )
+}
+```
+**Propriedades**
 
 
 
