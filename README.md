@@ -136,7 +136,7 @@ npm create vite@latest
 - Select a variant: TypeScript
 
 **Instalação das depêndencias de desenvolvimento**
-- `node_modules`.
+- `node_modules` `package-lock.json`.
 ```
 npm install
 ```
