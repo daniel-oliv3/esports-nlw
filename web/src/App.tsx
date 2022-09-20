@@ -1,7 +1,11 @@
-function Button(){
+interface ButtonProps{
+  title: string;
+}
+
+function Button(props: ButtonProps){
   return (
       <button>
-          Enviar
+          {props.title}
       </button>
   )
 }
@@ -14,7 +18,9 @@ function App() {
     <>
       <h1>Olá Mundo, Sapup3 na Área!</h1>
 
-      <Button />
+      <Button title="Send 1"/>
+      <Button title="Send 2"/>
+      <Button title="Send 3"/>
     </>
   )
 }
