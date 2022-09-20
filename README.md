@@ -131,8 +131,15 @@ npm install @types/express -D
 ```
 npm create vite@latest
 ```
+- Project name: web
+- Select a framework: React
+- Select a variant: TypeScript
 
-
+**Instalação das depêndencias de desenvolvimento**
+- `node_modules`.
+```
+npm install
+```
 
 
 
