@@ -122,9 +122,15 @@ npm run build
 npm install @types/express -D
 ```
 
+### Criação do projeto com React.js
+## Web (Front-End).
 
+**Vite.js**
+- Site: https://vitejs.dev/
 
-
+```
+npm create vite@latest
+```
 
 
 
