@@ -241,11 +241,20 @@ module.exports = {
 
 - Criar a pasta **styles** dentro de **src**.
 - Criar o arquivo `main.css` dentro da pasta **styles**. 
+- Colar trecho de codigo no arquivo `main.css`;
+
+```css
+//main.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
 
-
-
-
+**Extenções**
+- Visual Studio Code.
+    - `PostCSS language Suport`.
+    - `Tailwind CSS IntelliSense`.
 
 
 
