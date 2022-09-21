@@ -220,12 +220,27 @@ Tailwind CSS
 npm install -D tailwindcss postcss autoprefixer
 ```
 
+```
+npx tailwindcss init
+```
 
+- Criação do arquivo `tailwind.config.cjs`.
 
+```ts
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/**/*.tsx', //alteração
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
 
-
-
-
+- Criar a pasta **styles** dentro de **src**.
+- Criar o arquivo `main.css` dentro da pasta **styles**. 
 
 
 
