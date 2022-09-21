@@ -12,22 +12,22 @@ function App() {
       </h1>
 
       <div className="grid grid-cols-6 gap-6 mt-16">
-        <a href="">
+        <a href="" className="relative">
           <img src="/imagem1.png" alt="" />
         </a>
-        <a href="">
+        <a href="" className="relative">
           <img src="/imagem2.png" alt="" />
         </a>
-        <a href="">
+        <a href="" className="relative">
           <img src="/imagem3.png" alt="" />
         </a>
-        <a href="">
+        <a href="" className="relative">
           <img src="/imagem4.png" alt="" />
         </a>
-        <a href="">
+        <a href="" className="relative">
           <img src="/imagem5.png" alt="" />
         </a>
-        <a href="">
+        <a href="" className="relative">
           <img src="/imagem6.png" alt="" />
         </a>
       </div>
