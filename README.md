@@ -227,16 +227,18 @@ npx tailwindcss init -p
 - Criação do arquivo `tailwind.config.cjs`e `postcss.config.cjs`.
 
 ```ts
+//tailwind.config.cjs
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.tsx', 
+    './src/**/*.tsx',
     './index.html',
   ],
   theme: {
     extend: {
       backgroundImage: {
-        galaxy: "url('/Fundo.png')"
+        galaxy: "url('./public/Fundo.png')",
+        'nlw-gradient': 'linear-gradient(89.86deg, #9572FC 27.08%, #43E7AD 33.94%, #E1D55D 10.57%)'
       },
     },
   },
@@ -261,11 +263,11 @@ module.exports = {
     - `PostCSS language Suport`.
     - `Tailwind CSS IntelliSense`.
 
-**background-image**
+**Background Image**
 - https://tailwindcss.com/docs/background-image
 
-
-
+**Gradient Color Stops**
+- https://tailwindcss.com/docs/gradient-color-stops
 
 
 
