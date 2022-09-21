@@ -221,10 +221,10 @@ npm install -D tailwindcss postcss autoprefixer
 ```
 
 ```
-npx tailwindcss init
+npx tailwindcss init -p
 ```
 
-- Criação do arquivo `tailwind.config.cjs`.
+- Criação do arquivo `tailwind.config.cjs`e `postcss.config.cjs`.
 
 ```ts
 /** @type {import('tailwindcss').Config} */

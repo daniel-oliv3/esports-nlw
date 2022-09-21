@@ -4,9 +4,9 @@ import './styles/main.css';
 function App() {
   
   return (
-    <>
-      <h1></h1>
-    </>
+    <div className="w-8 h-8 bg-violet-500">
+      
+    </div>
   )
 }
 
