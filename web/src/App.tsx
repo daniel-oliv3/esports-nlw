@@ -1,5 +1,5 @@
 import './styles/main.css';
-import logoImg from './assets/Logo.png';
+import logoImg from '../src/assets/Logo.png';
 
 function App() {
   
@@ -10,6 +10,28 @@ function App() {
       <h1 className="text-6xl text-white font-black mt-20">
         Seu <span className='text-transparent bg-nlw-gradient bg-clip-text'>duo</span> está aqui.
       </h1>
+
+      <div className="grid grid-cols-6 gap-6 mt-16">
+        <a href="">
+          <img src="/imagem1.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/imagem2.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/imagem3.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/imagem4.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/imagem5.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/imagem6.png" alt="" />
+        </a>
+      </div>
+
     </div>
   )
 }
