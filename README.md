@@ -208,6 +208,46 @@ function App() {
 export default App
 ```
 
+## Tailwind CSS.
+
+Tailwind CSS
+- Site: https://tailwindcss.com/
+
+**Instalando o Tailwind CSS no projeto**
+- Install: https://tailwindcss.com/docs/installation/using-postcss
+
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
