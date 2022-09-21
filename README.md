@@ -230,10 +230,15 @@ npx tailwindcss init -p
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.tsx', //alteração
+    './src/**/*.tsx', 
+    './index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        galaxy: "url('/Fundo.png')"
+      },
+    },
   },
   plugins: [],
 }
@@ -256,7 +261,8 @@ module.exports = {
     - `PostCSS language Suport`.
     - `Tailwind CSS IntelliSense`.
 
-
+**background-image**
+- https://tailwindcss.com/docs/background-image
 
 
 
