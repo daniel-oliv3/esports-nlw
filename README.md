@@ -324,8 +324,12 @@ expo init mobile
 expo start
 ```
 
+**Expo Create Splash Screen**.
+- Site: https://docs.expo.dev/guides/splash-screens/
 
-
+**Extenções**
+- Visual Studio Code.
+    - `R Component`.
 
 
 
