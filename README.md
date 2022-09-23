@@ -331,11 +331,14 @@ expo start
 - Visual Studio Code.
     - `R Component`.
 
-
-
-
-
-
+**Snippet** | **Content**
+- rnbc - Create a new React Native Basic Component
+- rnso - Create a new React Native Stylesheets Component
+- rnsc - Create a new React Native Component With Styled 
+- rnscs - Create a new Styled Component File
+- rnsctc - Get the path to color theme props
+- rnsctf - Get the path to fonts theme props
+- nbc - Create Native Basic Component
 
 
 
