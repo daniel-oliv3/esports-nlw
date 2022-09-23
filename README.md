@@ -271,7 +271,18 @@ module.exports = {
 - https://tailwindcss.com/docs/gradient-color-stops
 
 
+## Phosphor Icons. 
 
+Phosphor é uma família de **ícones** flexível para interfaces, diagramas, apresentações — o que for, na verdade.
+
+- Site: https://phosphoricons.com/
+- Github: https://github.com/phosphor-icons/phosphor-home#phosphor-icons
+
+**Instalando o Phosphor Icons**.
+
+```
+npm i phosphor-react
+```
 
 
 
