@@ -340,10 +340,25 @@ expo start
 - rnsctf - Get the path to fonts theme props
 - nbc - Create Native Basic Component
 
+**Expo Google Fonts**.
+- Using a Google Font
+- Site: https://docs.expo.dev/guides/using-custom-fonts/
 
+```
+expo install expo-font @expo-google-fonts/inter
+```
+## Bibliotecas.
+**React Navigation**
+- Site: https://reactnavigation.org/
 
+```
+expo install react-native-safe-area-context
+```
 
-
+**Linear Gradient**.
+```
+expo install expo-linear-gradient
+```
 
 
 
