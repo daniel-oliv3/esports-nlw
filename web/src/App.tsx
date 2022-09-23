@@ -20,7 +20,7 @@ function App() {
             <span className="text-zinc-300 text-sm block">4 anúncios</span>
           </div>
         </a>
-        <a href="" className="relative">
+        <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/imagem2.png" alt="" />
 
           <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
@@ -28,7 +28,7 @@ function App() {
             <span className="text-zinc-300 text-sm block">9 anúncios</span>
           </div>
         </a>
-        <a href="" className="relative">
+        <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/imagem3.png" alt="" />
 
           <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
@@ -36,7 +36,7 @@ function App() {
             <span className="text-zinc-300 text-sm block">6 anúncios</span>
           </div>
         </a>
-        <a href="" className="relative">
+        <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/imagem4.png" alt="" />
 
           <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
@@ -44,7 +44,7 @@ function App() {
             <span className="text-zinc-300 text-sm block">2 anúncios</span>
           </div>
         </a>
-        <a href="" className="relative">
+        <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/imagem5.png" alt="" />
 
           <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
@@ -52,7 +52,7 @@ function App() {
             <span className="text-zinc-300 text-sm block">3 anúncios</span>
           </div>
         </a>
-        <a href="" className="relative">
+        <a href="" className="relative rounded-lg overflow-hidden">
           <img src="/imagem6.png" alt="" />
 
           <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
@@ -60,6 +60,13 @@ function App() {
             <span className="text-zinc-300 text-sm block">1 anúncios</span>
           </div>
         </a>
+      </div>
+
+      <div className="pt-1 bg-nlw-gradient self-stretch  mt-8 rounded-lg overflow-hidden">
+        <div className="bg-[#2A2634] px-8 py-6">
+          <strong className="text-2xl text-white font-black block">Não encontrou seu duo?</strong>
+          <span className="text-zinc-400 block">Publique um anúncio para encontrar novos players!</span>
+        </div>
       </div>
 
     </div>
