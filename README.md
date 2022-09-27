@@ -115,12 +115,122 @@ npm run build
 ```
 
 - https://www.npmjs.com/package/express
-- DT, Types-Express
+- **DT**, **Types-Express**
 - https://www.npmjs.com/package/@types/express
 
 ```
 npm install @types/express -D
 ```
+
+
+
+**sQlite**
+- Site: https://www.sqlite.org/index.html
+
+
+**HTTP method / API RESTfull / HTTP Codes**
+
+`GET, POST, PUT, PATCH, DELETE`
+
+**HTTP Code MDN**
+- Status Code.
+- Site: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+
+```txt
+3 Tipos de Parâmetros
+Query:
+Routes:
+Body:
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Criação do projeto com React.js
 ## Web (Front-End).
