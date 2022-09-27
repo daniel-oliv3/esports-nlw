@@ -123,11 +123,6 @@ npm install @types/express -D
 ```
 
 
-
-**sQlite**
-- Site: https://www.sqlite.org/index.html
-
-
 **HTTP method / API RESTfull / HTTP Codes**
 
 `GET, POST, PUT, PATCH, DELETE`
@@ -138,22 +133,28 @@ npm install @types/express -D
 
 ```txt
 3 Tipos de Parâmetros
-Query:
-Routes:
-Body:
+  Query:
+  Routes:
+  Body:
 ```
 
+## Banco de Dados
+- Banco de dados relacional.
 
+**sQlite**
+- Site: https://www.sqlite.org/index.html
 
+**sQlite e Node.js**
+- Site: https://www.npmjs.com/package/sqlite3
 
+## Query Builder
+**Knex**
+- "Converte" JavaScript para sql.
+- Site: https://knexjs.org/
 
-
-
-
-
-
-
-
+## ORM
+**Prisma**
+- Site: https://www.prisma.io/
 
 
 
