@@ -12,4 +12,23 @@ model Game {
   id String @id
   title String 
   bannerUrl String
+
+  ads Ad[]
+}
+
+model Ad {
+  id String @id
+  gameId String
+  name String
+  yearsPlaying Int
+  discord String
+  weekDays String
+  hourStart Int
+  hourEnd Int
+  useVoiceChannel Boolean
+  createdAd DateTime @default(now())
+
+
+  game Game @relation(fields: [gameId], references: [id])
+  
 }

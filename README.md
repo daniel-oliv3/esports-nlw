@@ -174,13 +174,25 @@ npx prisma init --datasource-provider SQLite
 **Extenções**
 - Visual Studio Code.
     - `Prisma`.
+    - `SQLite`.
 
+**Migrate**
 ```
 npx prisma migrate dev
 ```
+- create table games
 
+**Prisma Studio**
+- Navegar pela tabela de banco de dados.
+```
+npx prisma studio
+```
 
-
+**Migrate**
+```
+npx prisma migrate dev
+```
+- create table ads
 
 
 
