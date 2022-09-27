@@ -163,12 +163,21 @@ npm install @types/express -D
 npm i prisma -D
 ```
 
+```
+npx prisma init -h
+```
 
+```
+npx prisma init --datasource-provider SQLite
+```
 
+**Extenções**
+- Visual Studio Code.
+    - `Prisma`.
 
-
-
-
+```
+npx prisma migrate dev
+```
 
 
 
