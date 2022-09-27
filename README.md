@@ -37,6 +37,7 @@ React.js, Node.js, React-Native, JavaScript, TypeScript.
 **Figma do projeto.**
 - Site:  https://www.figma.com/community/file/1150897317533332617
 
+##
 ### Criação do projeto com Node.js
 ## Server (Back-End).
 - Criação da pasta server.
@@ -154,8 +155,13 @@ npm install @types/express -D
 
 ## ORM
 **Prisma**
+- Prisma
 - Site: https://www.prisma.io/
 
+**Instalando o prisma na aplicação**
+```
+npm i prisma -D
+```
 
 
 
@@ -230,9 +236,7 @@ npm install @types/express -D
 
 
 
-
-
-
+##
 ### Criação do projeto com React.js
 ## Web (Front-End).
 
@@ -417,8 +421,6 @@ npm i phosphor-react
 
 
 ##
-
-
 ### Criação do projeto com React Native
 ## Mobile (Mobile).
 
@@ -443,16 +445,16 @@ expo start
     - `R Component`.
 
 **Snippet** | **Content**
-- rnbc - Create a new React Native Basic Component
-- rnso - Create a new React Native Stylesheets Component
-- rnsc - Create a new React Native Component With Styled 
-- rnscs - Create a new Styled Component File
-- rnsctc - Get the path to color theme props
-- rnsctf - Get the path to fonts theme props
-- nbc - Create Native Basic Component
+- rnbc - `Create a new React Native Basic Component`
+- rnso - `Create a new React Native Stylesheets Component`
+- rnsc - `Create a new React Native Component With Styled`
+- rnscs - `Create a new Styled Component File`
+- rnsctc - `Get the path to color theme props`
+- rnsctf - `Get the path to fonts theme props`
+- nbc - `Create Native Basic Component`
 
 **Expo Google Fonts**.
-- Using a Google Font
+- Using a *Google Font*
 - Site: https://docs.expo.dev/guides/using-custom-fonts/
 
 ```
