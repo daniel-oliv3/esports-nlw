@@ -229,7 +229,12 @@ npx prisma generate
 **Validações**
 - Site: https://github.com/colinhacks/zod
 
+## Biblioteca 
+**Cors**
 
+```
+npm i @types/cors -D
+```
 
 
 
