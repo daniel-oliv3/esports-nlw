@@ -226,7 +226,8 @@ npx prisma generate
 }
 ```
 
-
+**Validações**
+- Site: https://github.com/colinhacks/zod
 
 
 
