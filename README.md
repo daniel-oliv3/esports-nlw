@@ -83,7 +83,7 @@ npm i typescript -D
 ```ts
 "scripts": {
     "build": "tsc",
-    "dev": "tsnd src/server.ts",
+    "dev": "tsnd --exit-child src/server.ts",
   },
 ```
 
@@ -194,13 +194,22 @@ npx prisma migrate dev
 ```
 - create table ads
 
+```
+npx prisma migrate dev
+```
 
+**Twitch**
+- Site: https://www.twitch.tv/directory
 
+- Copiar os endereços de imagem da twitch
 
+```
+npm i @prisma/client
+```
 
-
-
-
+```
+npx prisma generate
+```
 
 
 
