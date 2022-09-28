@@ -211,7 +211,20 @@ npm i @prisma/client
 npx prisma generate
 ```
 
+- Request Body
 
+```txt
+//hoppscotch
+{
+  "name": "Daniel",
+  "yearsPlaying": 2,
+  "discord": "sapup3#4536",
+  "weekDays": [0, 5, 6],
+  "hourStart": 1080,
+  "hourEnd": 1320,
+  "useVoiceChannel": true
+}
+```
 
 
 
