@@ -2,6 +2,7 @@ import { MagnifyingGlassPlus } from 'phosphor-react';
 import { GameBanner } from './components/GameBanner';
 import './styles/main.css';
 import logoImg from '../src/assets/Logo.png';
+import { CreateAdBanner } from './components/CreateAdBanner';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
 
       </div>
 
-      
+      <CreateAdBanner />
     </div>
   )
 }
