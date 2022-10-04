@@ -461,6 +461,72 @@ npm i phosphor-react
 **useState**
 - Example: https://reactjs.org/docs/hooks-state.html
 
+**Example useState**
+```js
+//App.js
+import { useState } from "react";
+
+function App() {
+
+  const [hasUserClickedOnButton, setHasUserClickedOnButton] = useState(false);
+
+  function handleButtonClick(){
+    setHasUserClickedOnButton(true);
+  }
+
+  return (
+    <>
+      <h1>useState</h1>
+
+      <button onClick={handleButtonClick}>Clique aqui</button>
+      <br />
+      <br />
+    
+      { hasUserClickedOnButton ? 'Usúario Clicou' : null }
+
+    </>
+  );
+}
+
+export default App;
+```
+
+## useEffect
+- Example: https://reactjs.org/docs/hooks-effect.html
+
+**Example useEffect**
+```js
+//App.js
+import { useState, useEffect } from "react";
+
+function App() {
+
+  const [hasUserClickedOnButton, setHasUserClickedOnButton] = useState(false);
+
+  function handleButtonClick(){
+    setHasUserClickedOnButton(!hasUserClickedOnButton);
+  }
+
+  useEffect(() => {
+    console.log(hasUserClickedOnButton);
+  }, [hasUserClickedOnButton])
+
+  return (
+    <>
+      <h1>useState</h1>
+
+      <button onClick={handleButtonClick}>Clique aqui</button>
+      <br />
+      <br />
+    
+      { hasUserClickedOnButton ? 'Usúario Clicou' : null }
+
+    </>
+  );
+}
+
+export default App;
+```
 
 
 
