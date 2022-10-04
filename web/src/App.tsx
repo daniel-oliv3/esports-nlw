@@ -25,7 +25,7 @@ function App() {
 
       <button onClick={handleButtonClick}>Botão</button>
 
-      { hasUserClickedOnButton ? 'Usuario clicou' : null}
+      { hasUserClickedOnButton ? 'Usuario clicou' : null }
 
       <div className="grid grid-cols-6 gap-6 mt-16">
         
