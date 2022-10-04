@@ -16,12 +16,12 @@ function App() {
 
       <div className="grid grid-cols-6 gap-6 mt-16">
         
-        <GameBanner />
-        <GameBanner />
-        <GameBanner />
-        <GameBanner />
-        <GameBanner />
-        <GameBanner />
+        <GameBanner bannerUrl="../public/imagem1.png" title="League of Legends" adsCount={5} />
+        <GameBanner bannerUrl="../public/imagem2.png" title="League of Legends" adsCount={3} />
+        <GameBanner bannerUrl="../public/imagem3.png" title="League of Legends" adsCount={1} />
+        <GameBanner bannerUrl="../public/imagem4.png" title="League of Legends" adsCount={9} />
+        <GameBanner bannerUrl="../public/imagem5.png" title="League of Legends" adsCount={7} />
+        <GameBanner bannerUrl="../public/imagem6.png" title="League of Legends" adsCount={4} />
 
       </div>
 
